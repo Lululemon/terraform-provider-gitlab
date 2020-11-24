@@ -10,6 +10,10 @@ Terraform Provider for Gitlab
   - ![Unit Tests](https://github.com/gitlabhq/terraform-provider-gitlab/workflows/Unit%20Tests/badge.svg?branch=master)
   - ![Acceptance Tests](https://github.com/gitlabhq/terraform-provider-gitlab/workflows/Acceptance%20Tests/badge.svg?branch=master)
   - ![Website Build](https://github.com/gitlabhq/terraform-provider-gitlab/workflows/Website%20Build/badge.svg?branch=master)
+  
+Notes
+-----
+This forked version of terraform-gitlab-provider contains mirroring fixes which the Koala team needs to automate mirroring process for teams. The original provider repo from gitlabhq has an [open pr](https://github.com/gitlabhq/terraform-provider-gitlab/pull/449) to address this and it does look ready to merge. Once that change is in the official provider we can migrate to that and drop this repository completely.
 
 Requirements
 ------------
